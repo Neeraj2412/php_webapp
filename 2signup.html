@@ -1,0 +1,26 @@
+<?php include('server.php') ?>
+<!Docktype HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>www.SignupVlogBlog.com</title>
+    <link rel="stylesheet" href="2signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+    <script type="css" src="2signup.js">
+    </script>
+    </head>
+  <body>
+<div class="sample">VlogBlog.</div>
+<div class="sgup">
+<h2>Start exploring world with VlogBlog.</h2>
+<form action="2signup.php" method="POST">
+  <?php include("errors.php") ?>
+  <input type="username" name="username" value="" placeholder="Username." id="usern" required><br>
+  <input type="email" name="emali" value="" placeholder="Email." id="mob" required><br>
+  <input type="password" name="password" value="" placeholder="Password." id="pass" required><br>
+  <input type="submit" name="signup" value="Signup." id="ssg">
+</form>
+</div>
+</body>
+</html>

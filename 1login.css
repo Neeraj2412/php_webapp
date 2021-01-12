@@ -1,0 +1,122 @@
+*{
+  margin: 0px;
+}
+body{
+  background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Alien-Planet-Background-HD-PIC-WPD005945.jpg);
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.sample{
+  text-align: center;
+  font-size: 70px;
+  color: 20;
+}
+.login{
+  margin-top: 100px;
+  text-align: center;
+  font-family:oblique;
+  font-size: 30px;
+}
+.username{
+  background-color:rgba(29, 23, 11, 0.65);;
+  overflow: hidden;
+  color: #fffdfd;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 6px;
+}
+.lgbtn{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 120%;
+  color:rgba(250, 252, 255, 0.44);
+  background-color: #00001563;
+  text-align: left;
+  padding: 5px 20px;
+  border:none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color ease 400ms;
+}
+.lgbtn:hover{
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.sgup{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 120%;
+  color:rgba(250, 252, 255, 0.44);
+  background-color: #00001563;
+  text-align: left;
+  padding: 5px 20px;
+  border:none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color ease 400ms;
+}
+.sgup:hover{
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.fp{
+  font-size: 18px;
+  text-decoration: none;
+  border:none;
+  border-radius: 4px;
+  background-color: transparent;
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+  display: run-in;
+}
+#st{
+  background-image: url(gp.png);
+  background-position: center;
+  background-size: 110% 110%;
+  background-repeat: no-repeat;
+  margin-left: 447px;
+  padding: 16px 80px;
+  border:none;
+  border-radius: 4px;
+}
+#st1{
+  background-image: url(ap1.jpg);
+  background-position: center;
+  background-size: 110% 110%;
+  background-repeat: no-repeat;
+  padding: 16px 80px;
+  margin-left: 2px;
+  border: none;
+  border-radius: 4px;
+}
+#st2{
+  background-image: url(download.png);
+  background-position: center;
+  background-size: 110% 110%;
+  background-repeat: no-repeat;
+  margin-left: 2px;
+  padding: 16px 80px;
+  border:none;
+}
+.fa{
+  float: right;
+  margin-right: 5px;
+  background: #3077ad;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+}

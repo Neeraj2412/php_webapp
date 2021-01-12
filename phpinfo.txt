@@ -1,0 +1,17 @@
+PHP - stands for hypertext pre-processor.
+It allows us to create dynamic web-pages and require server to execute php scripts.
+We use Apache server from xampp control pannel to create server enviournment on our local machine
+It also allows us to write HTML with our Business logics.
+Preprocessor refers which does not required any comilation, so PHP does not requires any compiler it is pre-comiled languages. 
+
+We can add 65500 character in this varCHAr length n MySqul.
+
+
+
+<!--
+First to declarfe variables which is used to store values of hostname, username & password of mySql.To create a database it is neccessary to connect with MySql.So we need host user & password.Mysqli_connect()is used to connect with mysql which accept three parameter in a sequence of host username & password.
+MySql_error()is used to display mysql eceptation .After connectio is created than mysql_error() will accept the parameter of connection of objects.
+die() is used to terminTE THE process of connectivity with mysql , which accept a string and parametr to display the message.
+mysql_query() is used to execute query related to database, which accept 2 parameters for connection and query. And it returns 1 id=f query is executed successfully or return 0 in case of unsuccessfull. 
+
+-->
